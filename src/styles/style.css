@@ -97,13 +97,6 @@ img {
   max-width: 200px;
 }
 
-/* .time {
-  color: #777;
-  display: block;
-  font-size: 12px;
-  margin: 8px 0 0;
-} */
-
 .outgoing-chats {
   overflow: hidden;
   margin: 26px 20px;
@@ -172,17 +165,17 @@ img {
   width: 55px;
 }
 
-.test {
-  border: 1px solid black;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 414px) {
   .container {
     width: 300px;
     max-height: 650px;
     margin: 0 auto;
+  }
+
+  .outgoing-chats-msg {
+    float: left;
+    margin-left: 32%;
+    margin-top: 9px;
   }
 
   .msg-header {
@@ -211,7 +204,17 @@ img {
   .recieved-chats-img {
     display: inline-block;
     width: 20px;
-    /* float: left; */
+  }
+
+  .outgoing-chats-msg p {
+    background: #007bff none repeat scroll 0 0;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
   }
 
   .msg-bottom {

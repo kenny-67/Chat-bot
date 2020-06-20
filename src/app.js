@@ -12,13 +12,13 @@ const Sent = (props) => {
   return (
     <div>
       <div className="outgoing-chats">
+        <div className="outgoing-chats-img">
+          <img src={kakashi} />
+        </div>
         <div className="outgoing-msg">
           <div className="outgoing-chats-msg">
             <p>{props.message.slice(1)}</p>
             {/* <span className="time">11:01 PM | Now</span> */}
-          </div>
-          <div className="outgoing-chats-img">
-            <img src={kakashi} />
           </div>
         </div>
       </div>
