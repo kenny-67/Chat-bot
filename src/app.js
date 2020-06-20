@@ -231,8 +231,6 @@ class ChatBot extends React.Component {
             </div>
           </div>
         </div>
-
-        <div className="test">some content</div>
       </div>
     );
   }
