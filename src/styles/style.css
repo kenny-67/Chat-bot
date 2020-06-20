@@ -1,12 +1,8 @@
-.header {
-  margin: 0 auto;
-}
-
 .container {
   /* border: 1px solid gray; */
   border-radius: 10px 10px 0 0;
-  width: 500px;
-  height: 700px;
+  max-width: 500px;
+  max-height: 700px;
   margin: 0 auto;
   font-family: sans-serif;
   letter-spacing: 0.5px;
