@@ -1,0 +1,174 @@
+.header {
+  margin: 0 auto;
+}
+
+.container {
+  /* border: 1px solid gray; */
+  border-radius: 10px 10px 0 0;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.msg-header {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 70px;
+  border-radius: 10px 10px 0 0;
+  display: inline-block;
+  /* border-bottom: none; */
+  background: #007bff;
+}
+
+.msg-header-img {
+  width: 40px;
+  margin-left: 5%;
+  margin-top: 12px;
+  float: left;
+}
+
+.active {
+  margin: -5px 0 0 70px;
+  line-height: 0.5px;
+}
+
+.active h4 {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.active h6 {
+  font-size: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.chat-page {
+  /* border: 1px solid #ccc; */
+  /* border-top: none; */
+  margin-top: -1px;
+  position: relative;
+  width: 500px;
+  padding: 0 0 50px 0;
+}
+
+.msg-inbox {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.chats {
+  padding: 30px 15px 0 25px;
+}
+
+.msg-page {
+  height: 450px;
+  overflow-y: auto;
+}
+
+.recieved-chats-img {
+  display: inline-block;
+  width: 20px;
+  /* float: left; */
+}
+
+.recieved-msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+}
+
+.recieved-msg-inbox p {
+  background: #efefef none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  max-width: 200px;
+}
+
+/* .time {
+  color: #777;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+} */
+
+.outgoing-chats {
+  overflow: hidden;
+  margin: 26px 20px;
+}
+
+.outgoing-chats-msg {
+  float: left;
+  width: 100px;
+  margin-left: 62%;
+}
+
+.outgoing-chats-msg p {
+  background: #007bff none repeat scroll 0 0;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.outgoing-chats-img {
+  display: inline-block;
+  width: 20px;
+  float: right;
+}
+
+.msg-bottom {
+  border: 1px solid #ccc;
+  border-top: none;
+  position: relative;
+  bottom: 50px;
+  height: 30px;
+  width: 488px;
+  padding: 10px 0 10px 10px;
+  background: #ccc;
+}
+
+.input-group {
+  outline: none !important;
+  border-radius: 20px;
+  width: 80% !important;
+  /* background-color: #fff; */
+}
+
+.form-control {
+  border: none !important;
+  /* border: 1px solid blue; */
+  border-radius: 10px !important;
+  height: 25px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+.input-group-text {
+  background: transparent !important;
+}
+
+.btn {
+  margin-left: 10px;
+  height: 25px;
+
+  border-radius: 5px;
+  background: #fff;
+  width: 55px;
+}
