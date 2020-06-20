@@ -1,3 +1,6 @@
+@media screen and (max-width: 640) {
+}
+
 .container {
   /* border: 1px solid gray; */
   border-radius: 10px 10px 0 0;
@@ -167,4 +170,75 @@ img {
   border-radius: 5px;
   background: #fff;
   width: 55px;
+}
+
+.test {
+  border: 1px solid black;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 300px;
+    max-height: 650px;
+    margin: 0 auto;
+  }
+
+  .msg-header {
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+    background: #007bff;
+  }
+
+  .chat-page {
+    /* border: 1px solid #ccc; */
+    /* border-top: none; */
+    margin-top: -1px;
+    position: relative;
+    width: 300px;
+    padding: 0 0 50px 0;
+  }
+
+  .msg-page {
+    height: 450px;
+    overflow-y: auto;
+  }
+
+  .recieved-chats-img {
+    display: inline-block;
+    width: 20px;
+    /* float: left; */
+  }
+
+  .msg-bottom {
+    bottom: 50px;
+    height: 30px;
+    width: 288px;
+  }
+
+  .form-control {
+    border: none !important;
+    /* border: 1px solid blue; */
+    border-radius: 10px !important;
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .input-group-text {
+    background: transparent !important;
+  }
+
+  .btn {
+    margin-left: 10px;
+    height: 25px;
+
+    border-radius: 5px;
+    background: #fff;
+    width: 55px;
+  }
 }

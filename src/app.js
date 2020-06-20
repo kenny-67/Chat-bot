@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./styles/bootstrap.min.css";
+// import "./styles/bootstrap.min.css";
 import "./styles/style.css";
 
 import bot from "./images/bot.jpg";
@@ -231,6 +231,8 @@ class ChatBot extends React.Component {
             </div>
           </div>
         </div>
+
+        <div className="test">some content</div>
       </div>
     );
   }
